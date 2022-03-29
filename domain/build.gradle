@@ -1,0 +1,8 @@
+apply plugin: "kotlin"
+
+def RX_VERSION = "1.3.0"
+
+dependencies {
+
+    implementation("io.reactivex:rxjava:${RX_VERSION}")
+}
